@@ -1,0 +1,209 @@
+body{
+    background-image: url(/atomic-img-02.jpg);
+    justify-content: center;
+    background-attachment: fixed;
+}
+nav{
+    background-color: hsl(0, 31%, 90%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    font-family: fantasy;
+    
+}
+.ul1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+    
+}
+.display {
+    display: block;
+    color: rgb(131, 129, 129);
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+li {
+    float: left;
+}
+*{
+    margin: 0;
+    border-radius: 0;
+}
+h1{
+    text-align: center;
+    color:white;
+    font-weight: 500px;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 13px;
+}
+button{
+    background-color: coral;
+    padding:10px;
+    border-radius: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight:bolder;
+    font-size: larger;
+    height: 50px;
+    width: 180px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    color:whitesmoke
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.background{
+    background-color: rgba(74, 82, 120, 1);
+    height: 300px;
+    padding: 10px 60px;
+}
+/* .done{
+    background-color: white;
+    height: 500px;
+    padding: 10px 60px;
+
+}
+.start{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    color:black
+
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+.done {
+    background-color: white;
+    padding: 10px 60px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .start {
+    flex: 1;
+    padding: 15px;
+    color: black;
+    /* text-align: center; */
+    justify-content: center;
+    display: flex;
+  }
+  
+  .empty {
+    visibility: hidden;
+  }
+/* .second{
+    text-align: center;
+  }
+   */
+/* .right{
+    float: right;
+    padding: 80px;
+    content: "";
+    clear: both;
+    display: table;
+
+}    */
+.white{
+    background-color: white;
+    align-items: center;
+    padding: 20px 80px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+/* .left{
+    float: left;
+    padding: 80px;
+    content: "";
+    clear: both;
+    display: table;
+
+} */
+/* .column2{
+    margin-bottom: 20px;
+} */
+ .space{
+    margin-bottom: 15px;
+    text-align: center;
+ }
+.write{
+    right: auto;
+    margin-top: 100px;
+}
+.button2{
+    background-color: coral;
+    /* padding:10px; */
+    /* border-radius: 4px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight:bolder;
+    font-size: larger;
+    height: 40px;
+    width: 160px;
+    margin-left: 190px;
+}
+.last{
+    background-color: rgba(237, 114, 104, 1);
+    height: 300px;
+    padding: 10px 40px;
+    background-position: left top ;
+    background-size: auto ;
+    background-repeat: no-repeat;    
+}
+.final{
+   color: white; 
+
+
+}
+ul{
+    font-weight: 300;
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;  
+    color: white ;
+    
+}
+.lastrow{
+    text-decoration: none;
+        color: white ;
+    }
+.result{
+    border-style: groove;
+    border-bottom-color: darkgray;
+    border-bottom: 100px;
+    border-left: 100px;
+    border-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
