@@ -1,5 +1,5 @@
 body{
-    background-image: url(/atomic-img-02.jpg);
+    background-image: url(./img/atomic-img-02.jpg);
     justify-content: center;
     background-attachment: fixed;
 }
@@ -73,24 +73,7 @@ button{
     height: 300px;
     padding: 10px 60px;
 }
-/* .done{
-    background-color: white;
-    height: 500px;
-    padding: 10px 60px;
 
-}
-.start{
-    float: left;
-    width: 33.33%;
-    padding: 15px;
-    color:black
-
-}
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
-} */
 .done {
     background-color: white;
     padding: 10px 60px;
@@ -110,7 +93,6 @@ button{
     flex: 1;
     padding: 15px;
     color: black;
-    /* text-align: center; */
     justify-content: center;
     display: flex;
   }
@@ -118,37 +100,13 @@ button{
   .empty {
     visibility: hidden;
   }
-/* .second{
-    text-align: center;
-  }
-   */
-/* .right{
-    float: right;
-    padding: 80px;
-    content: "";
-    clear: both;
-    display: table;
 
-}    */
 .white{
     background-color: white;
     align-items: center;
     padding: 20px 80px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
 }
-/* .left{
-    float: left;
-    padding: 80px;
-    content: "";
-    clear: both;
-    display: table;
 
-} */
-/* .column2{
-    margin-bottom: 20px;
-} */
  .space{
     margin-bottom: 15px;
     text-align: center;
@@ -159,8 +117,6 @@ button{
 }
 .button2{
     background-color: coral;
-    /* padding:10px; */
-    /* border-radius: 4px; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     font-weight:bolder;
